@@ -7,5 +7,17 @@ html(lang="en")
     body
         main
             center
-                label(for="email") Email
-                input(type="text")
+                form(action="/read", method="post")
+                    label(for="email") Email: 
+                    input(type="text")
+                    br
+                    br
+                    label(for="email") Password: 
+                    input(type="text")
+                    br
+                    br
+                    label(for="email") Phone number: 
+                    input(type="text")
+                    br
+                    br
+                    button(type="submit") Send
